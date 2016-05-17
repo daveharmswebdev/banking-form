@@ -32,23 +32,27 @@
                     <label for='loanAmount'>Loan Amount<input id='loanAmount' type="text" name="" value=""></label>
                 </fieldset>
                 <fieldset>
+                    <legend>Length of Loan</legend>
                     <input type="radio" name="5 Years" id="">5 Years
                     <input type="radio" name="15 Years" id="">10 Years
                     <input type="radio" name="30 Years" id="">15 Years
                 </fieldset>
                 <fieldset>
+                    <legend>Loan Conditions</legend>
                     <input type="checkbox" name="" id="">Down Payment
                     <input type="checkbox" name="" id="">Out of State Resident
                     <input type="checkbox" name="" id="">Married
                     <input type="checkbox" name="" id="">Will Have Co-signed
                 </fieldset>
                 <fieldset>
-                    <textarea name="moreInfot"></textarea>
+                    <legend>More Info</legend>
+                    <textarea name="moreInfo"></textarea>
                 </fieldset>
                 <fieldset>
-                    <label for="">Email:<input type="text"></label>
-                    <label for="">Telephone:<input type="text"></label>
-                    <label for="">LinkedIn:<input type="text"></label>
+                    <legend>Contact Information</legend>
+                    <label for="">Email:<input type="email" name='email' required placeholder="Enter valid email address"></label>
+                    <label for="">Telephone:<input type="text" name='phone' placeholder="Enter phone number"></label>
+                    <label for="">LinkedIn:<input type="url" required placeholder="Enter linked in url"></label>
                 </fieldset>
             </div>
     	<footer></footer>
